@@ -22,6 +22,16 @@ const Navbar = () => {
         </button>
         <div className="collapse navbar-collapse justify-content-end pe-md-4" id="navbarText">
           <ul className="navbar-nav mb-2 mb-lg-0">
+          <li className="nav-item">
+              <NavLink
+                to="/"
+                className={({ isActive }) =>
+                  isActive ? 'nav-link active' : 'nav-link'
+                }
+              >
+                Home
+              </NavLink>
+            </li>
             <li className="nav-item">
               <NavLink
                 to="about"
