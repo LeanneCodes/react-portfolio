@@ -2,4 +2,47 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-padding-top: 99px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-color);
+  font-family: var(--body-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--header-font);
+  color: var(--header-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p {
+  font-family: var(--body-text);
+}
+
+a {
+  text-decoration: none;
+  color: var(--purple);
+  font-weight: 600;
+}
+
+.container {
+  padding: 4rem;
 }

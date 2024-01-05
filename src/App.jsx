@@ -9,6 +9,7 @@ import Projects from './components/pages/Projects';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 
+
 function App() {
 
   return (

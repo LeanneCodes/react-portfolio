@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <NavLink
           to="/"
@@ -12,7 +12,7 @@ const Navbar = () => {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Leanne Goldsmith
+          <h1>Leanne Goldsmith</h1>
         </NavLink>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
