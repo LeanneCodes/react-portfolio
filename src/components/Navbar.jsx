@@ -1,25 +1,28 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <NavLink
-          to="/"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          <h1>Leanne Goldsmith</h1>
-        </NavLink>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+    <nav className="navbar navbar-expand-lg">
+      <div className="container-fluid">
+        <div className='title'>
+          <NavLink
+            to="/"
+            end
+            className={({ isActive }) =>
+              isActive ? 'nav-link active' : 'nav-link'
+            }
+          >
+            Junior Frontend Portfolio
+          </NavLink>
+        </div>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
+        <div className="collapse navbar-collapse justify-content-end pe-md-4" id="navbarText">
+          <ul className="navbar-nav mb-2 mb-lg-0">
+            <li className="nav-item">
               <NavLink
                 to="about"
                 className={({ isActive }) =>
@@ -29,7 +32,7 @@ const Navbar = () => {
                 About Me
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="skills"
                 className={({ isActive }) =>
@@ -39,7 +42,7 @@ const Navbar = () => {
                 Skills
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="projects"
                 className={({ isActive }) =>
@@ -49,7 +52,7 @@ const Navbar = () => {
                 Projects
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="contact"
                 className={({ isActive }) =>
@@ -59,7 +62,7 @@ const Navbar = () => {
                 Contact Me
               </NavLink>
             </li>
-            <li class="nav-item">
+            <li className="nav-item">
               <NavLink
                 to="resume"
                 className={({ isActive }) =>
@@ -70,9 +73,6 @@ const Navbar = () => {
               </NavLink>
             </li>
           </ul>
-          <span class="navbar-text">
-            Junior Frontend Developer
-          </span>
         </div>
       </div>
     </nav>
