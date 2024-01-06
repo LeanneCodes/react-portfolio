@@ -33,7 +33,7 @@
 h1 {
     color: var(--cream) !important;
     text-shadow: 3px 3px var(--coral);
-    padding-bottom: 3rem;
+    padding-bottom: 3rem !important;
 }
 
 @media (max-width: 425px) {
