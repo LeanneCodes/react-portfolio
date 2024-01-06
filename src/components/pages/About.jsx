@@ -4,7 +4,7 @@ import Leanne2 from '../../assets/leanne-portfolio-portrait.png';
 import '../styles/About.css'
 
 const About = () => {
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1500);
 
   useEffect(() => {
     const handleResize = () => {

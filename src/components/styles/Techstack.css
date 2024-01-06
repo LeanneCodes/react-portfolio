@@ -1,0 +1,11 @@
+.icon {
+    font-size: xxx-large;
+}
+
+.tech-container p {
+    font-size: large;
+}
+
+.tech-container:hover {
+	scale: 1.2;
+}

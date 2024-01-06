@@ -1,0 +1,102 @@
+.skills-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.skills-header h1 {
+    color: white;
+}
+
+.skills-header h2, .skills-header span {
+    font-size: 4rem;
+    text-align: center;
+}
+
+.skills-header h3 {
+    text-align: center;
+}
+
+.skills-techstack {
+    width: 100%;
+}
+
+.skills-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    height: 290px;
+    grid-gap: 5px;
+}
+
+.grid-item {
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    .skills-header, .skills-flex {
+        width: 100%;
+    }
+
+    .skills-header {
+        padding: 20px 80px;
+    }
+
+    .grid-container {
+        height: 450px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .tech-container p {
+        font-size: medium;
+    }
+
+    .grid-container {
+        grid-column-gap: 10px;
+        margin-right: 0;
+    }
+
+    .skills-header {
+        padding: 40px 32px 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .tech-container p {
+        font-size: small;
+    }
+
+    .grid-container {
+        grid-column-gap: 5px;
+    }
+
+    .skills-flex {
+        padding: 35px 0;
+    }
+}
