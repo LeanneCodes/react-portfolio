@@ -109,6 +109,11 @@ const Navbar = () => {
                   Resume
                 </NavLink>
               </li>
+              <hr />
+              <div className='ext-link'>
+                <a href="https://github.com/LeanneCodes" target='_blank'><Icon icon={ <SiGithub/>}/></a>
+                <a href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank'><Icon icon={ <SiLinkedin/>}/></a>
+              </div>
             </ul>
           </div>
         </div>
