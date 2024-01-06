@@ -7,8 +7,13 @@
     justify-content: center;
 }
 
+.navbar-toggler{
+    background: var(--coral) !important;
+}
+
 .nav {
     text-align: left;
+    width: 50% !important;
 }
 
 .title {
@@ -61,4 +66,4 @@
     .ext-link a {
         padding-right: 20px;
     }
-  }
+}

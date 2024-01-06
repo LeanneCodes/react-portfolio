@@ -23,7 +23,7 @@ const Navbar = () => {
   if (isMobile) {
     // Mobile view with toggle navigation bar
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <div className="title">
             <NavLink
@@ -33,7 +33,7 @@ const Navbar = () => {
                 isActive ? 'nav-link active' : 'nav-link'
               }
             >
-              Portfolio
+              Frontend Portfolio
             </NavLink>
           </div>
           <button
@@ -125,6 +125,8 @@ const Navbar = () => {
   return (
     <div className='desktop'>
       <ul className="nav flex-column">
+        <p className='text-center display-flex mb-1'>Frontend Portfolio</p>
+        <hr />
         <li className="nav-item">
           <NavLink
             to="/"
