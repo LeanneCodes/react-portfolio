@@ -16,3 +16,7 @@
   --header-font: 'Roboto Slab', serif;
   --body-text: 'Montserrat', sans-serif;
 }
+
+#root {
+  display: flex;
+}
