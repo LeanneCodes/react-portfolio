@@ -50,13 +50,21 @@
 .project-card {
     text-align: center;
     display: flex;
+    margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1024px) {
-    .project-content {
-        height: 350px;
-        text-align: center;
+@media screen and (max-width: 1400px) {
+    .project-card {
+        flex-direction: column;
+    }
+
+    .project-image {
         display: flex;
-        justify-content: center;
+        justify-content: center !important;
+    }
+
+    .project-image img {
+        margin-right: 0;
+        width: 335px;
     }
 }

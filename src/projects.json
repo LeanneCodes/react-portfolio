@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "image": "src/assets/oyster-and-beyond-project-cover.png",
+        "name": "Oyster and Beyond Blog",
+        "tech": "HTML, NextJs, Tailwind, JavaScript, Hygraph CMS",
+        "summary": "A travel blog that showcases a variety of destinations and an option for users to leave comments.",
+        "live": "https://oyster-and-beyond-blog.vercel.app/",
+        "github": "https://github.com/LeanneCodes/oyster-and-beyond-blog"
+    },
+    {
+        "id": 2,
+        "image": "src/assets/vaultkey-project-cover.png",
+        "name": "VaultKey Password Generator",
+        "tech": "HTML, CSS, JavaScript",
+        "summary": "A password generator that intakes user input and forms a password between 8 and 128 characters.",
+        "live": "https://leannecodes.github.io/vault-key-generator/",
+        "github": "https://github.com/LeanneCodes/vault-key-generator"
+    },
+    {
+        "id": 3,
+        "image": "src/assets/vaultkey-project-cover.png",
+        "name": "VaultKey Password Generator",
+        "tech": "HTML, CSS, JavaScript",
+        "summary": "A password generator that intakes user input and forms a password between 8 and 128 characters.",
+        "live": "https://leannecodes.github.io/vault-key-generator/",
+        "github": "https://github.com/LeanneCodes/vault-key-generator"
+    }
+]
