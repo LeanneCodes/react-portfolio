@@ -1,6 +1,6 @@
 .about-container {
     padding:  10% 5%;
-    height: 100vh;
+    min-height: 100vh;
     margin: auto;
     justify-content: center;
 }

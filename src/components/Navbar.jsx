@@ -26,15 +26,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <div className="title">
-            <NavLink
-              to="/"
-              end
-              className={({ isActive }) =>
-                isActive ? 'nav-link active' : 'nav-link'
-              }
-            >
               Frontend Portfolio
-            </NavLink>
           </div>
           <button
             className="navbar-toggler"

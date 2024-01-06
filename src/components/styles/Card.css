@@ -50,7 +50,6 @@
 .project-card {
     text-align: center;
     display: flex;
-    margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -66,5 +65,12 @@
     .project-image img {
         margin-right: 0;
         width: 335px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .project-image img {
+        margin-right: 0;
+        width: 250px;
     }
 }

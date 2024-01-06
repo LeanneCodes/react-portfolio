@@ -17,7 +17,7 @@
 }
 
 .title {
-    color: var(--header-color);
+    color: var(--cream);
     font-family: var(--title) !important;
     text-shadow: 2px 2px var(--pink);
     font-weight: 600;
