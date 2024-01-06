@@ -117,17 +117,6 @@ const Navbar = () => {
   return (
     <div className='desktop'>
       <ul className="nav flex-column">
-        <div className='title'>
-          <NavLink
-            to="/"
-            end
-            className={({ isActive }) =>
-              isActive ? 'nav-link active' : 'nav-link'
-            }
-          >
-            Portfolio
-          </NavLink>
-        </div>
         <li className="nav-item">
           <NavLink
             to="/"

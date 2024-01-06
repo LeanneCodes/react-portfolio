@@ -4,7 +4,7 @@ import '../styles/Home.css'
 
 const Home = () => {
   return (
-    <div className='intro-container'>
+    <div className='intro-container container-fluid'>
       <h1 style={{color: 'white'}}>Leanne Goldsmith</h1>
       <p style={{color: 'white'}}>
       I hold a Merit Diploma as a certified Fullstack Engineer, with a profound passion for Frontend development.
