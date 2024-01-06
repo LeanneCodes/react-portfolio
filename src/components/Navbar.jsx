@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css';
+import Icon from './elements/Icon';
+import { SiGithub } from "react-icons/si";
+import { SiLinkedin } from "react-icons/si";
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -177,7 +180,13 @@ const Navbar = () => {
             Resume
           </NavLink>
         </li>
+        <hr />
+        <div className='ext-link'>
+          <a href="https://github.com/LeanneCodes" target='_blank'><Icon icon={ <SiGithub/>}/></a>
+          <a href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank'><Icon icon={ <SiLinkedin/>}/></a>
+        </div>
       </ul>
+
     </div>
   );
 };

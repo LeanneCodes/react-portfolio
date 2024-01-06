@@ -43,6 +43,12 @@
     font-family: var(--title);
 }
 
+.ext-link {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
 @media (max-width: 768px) {
     #root {
         flex-direction: column;

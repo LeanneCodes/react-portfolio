@@ -1,0 +1,7 @@
+.icon {
+    font-size: 2rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none !important;
+    color: var(--coral) !important;
+}
