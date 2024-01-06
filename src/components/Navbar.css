@@ -18,7 +18,8 @@
 
 .title {
     color: var(--header-color);
-    font-family: var(--header-font);
+    font-family: var(--title);
+    text-shadow: 2px 2px var(--pink);
     font-weight: 600;
     padding: 0.5rem 1rem;
     text-align: center;

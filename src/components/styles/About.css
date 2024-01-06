@@ -15,6 +15,19 @@
 
 .profile-pic {
     width: 65%;
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid var(--coral);
+    box-shadow: 0 0 25px var(--coral);
+}
+
+.profile-pic-portrait {
+    width: 55%;
+    border-radius: 9%;
+    padding: 20px;
+    border: 2px solid var(--coral);
+    box-shadow: 0 0 25px var(--coral);
+    margin-right: -8rem;
 }
 
 .img-style {
@@ -26,6 +39,7 @@
 
 .text-style {
     padding: 2rem;
+    margin-bottom: 0;
 }
 
 .text-pos {
@@ -38,8 +52,24 @@
     padding-right: 4rem;
 }
 
-h1 {
-    padding: 0 !important;
+.about-title {
+    padding-bottom: 0 !important;
+}
+
+@media screen and (max-width: 1500px) {
+    .about-info {
+        flex-direction: column !important;
+        justify-content: center;
+    }
+
+    .profile-pic {
+        width: 300px;
+        margin-bottom: 3rem;
+    }
+
+    .text-pos {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 1024px) {
@@ -50,11 +80,6 @@ h1 {
 
     .text-style {
         text-align: center;
-    }
-
-    .about-info {
-        flex-direction: column !important;
-        justify-content: center;
     }
 }
 

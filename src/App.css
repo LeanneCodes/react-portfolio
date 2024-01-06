@@ -16,13 +16,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--header-font);
+  font-family: var(--title);
   color: var(--header-color) !important;
   text-align: center;
 }
 
 h1 {
   font-size: 4rem;
+  padding-bottom: 0 !important;
 }
 
 h2 {
