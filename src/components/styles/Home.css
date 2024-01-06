@@ -1,5 +1,4 @@
 .intro-container {
-    background-color: var(--sage);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -17,11 +16,22 @@
     background-color: transparent;
     border: none;
     padding: 10px;
-    color: var(--text-highlight);
     font-size: 1rem;
+    font-family: var(--title);
 }
 
 .intro-links button:hover {
     scale: 1.2;
     transition: all 0.3s ease-in;
+}
+
+.intro-links button a {
+    color: var(--coral) !important;
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--cream) !important;
+    text-shadow: 3px 3px var(--coral);
+    padding-bottom: 3rem;
 }

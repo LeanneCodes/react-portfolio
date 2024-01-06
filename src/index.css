@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300;400;500;600;700&family=Montserrat&family=Roboto+Slab&display=swap');
 
 :root {
   --bg: #414141;
@@ -8,15 +8,23 @@
   --sage: #94a187;
   --lightGrey: #dedbd2;
   --cream: #f7e1d7;
-  --pink: #e9bcb7;
-  --purple: #432534;
+  --yellow: #FEC260;
+  --pink: #A12568;
+  --coral: #E94560;
+  --darkPurple: #1a052a;
+  --purple: #533483;
+  --navy: #16213E;
+  --blue: #0F3460;
   --text-color: #faf8fb;
   --header-color: #cfcdcd;
   --text-highlight: #EC625F;
+  --title: 'Lemonada', cursive;
   --header-font: 'Roboto Slab', serif;
   --body-text: 'Montserrat', sans-serif;
 }
 
 #root {
   display: flex;
+  background-color: var(--navy);
+  color: var(--cream);
 }

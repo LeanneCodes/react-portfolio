@@ -1,6 +1,6 @@
 .desktop {
     width: 35%;
-    padding: 3% 0 3% 15% !important;
+    padding: 3% 0 3% 10% !important;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -31,7 +31,16 @@
 }
 
 .nav-item a {
-    color: var(--sage);
+    color: var(--cream);
+}
+
+.nav-item a:hover {
+    color: var(--coral);
+}
+
+.active {
+    color: var(--coral) !important;
+    font-family: var(--title);
 }
 
 @media (max-width: 768px) {
