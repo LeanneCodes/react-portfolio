@@ -45,8 +45,8 @@ const Contact = () => {
     // contact info
     <div className='contact-container container-fluid'>
       <div className='w-75 mx-auto'>
-        <h1>Contact Me</h1>
-        <div className='d-flex flex-row justify-content-around'>
+        <h1 className='mt-4 contact-title'>Contact Me</h1>
+        <div className='contact-grid'>
           <div className='contact-info'>
             <div className='contact-icon'>{<FaPhone />}</div>
             <p>Contact No.</p>
@@ -71,8 +71,8 @@ const Contact = () => {
       </div>
 
       {/* contact form */}
-      <div className='w-75 mx-auto'>
-        <div>
+      <div className='w-75 mx-auto message-container'>
+        <div className='email-header'>
           <h2 className='message'>Have a question?</h2>
           <h4 className='message'>Send me a message</h4>
         </div>
@@ -82,7 +82,7 @@ const Contact = () => {
               <input type="text" name="user_name" className="form-control" placeholder="Name" aria-label="Name" required />
             </div>
             <div className="col">
-              <input type="email" name="user_email" className="form-control" id="inputEmail4" placeholder='Email Address' required />
+              <input type="email" name="user_email" className="form-control" id="inputEmail4" placeholder='Email' required />
             </div>
           </div>
           <div className='row mt-3'>
