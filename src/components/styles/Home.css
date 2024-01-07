@@ -36,8 +36,22 @@ h1 {
     padding-bottom: 3rem !important;
 }
 
+@media (max-width: 1024px) {
+    h1 {
+     font-size: 5rem !important;
+    }
+
+    .intro-container p {
+        width: 70%;
+    }
+ }
+
 @media (max-width: 425px) {
    h1 {
     font-size: 3rem !important;
-   } 
+   }
+
+   .intro-container p {
+    width: 90%;
+}
 }
