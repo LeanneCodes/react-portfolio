@@ -6,7 +6,7 @@ const Card = (props) => {
     <>
       <div className='project-card'>
         <div className='project-image'>
-          <img src={props.image} alt="project-image" />
+          <img src={props.image} alt={props.name} />
         </div>
         <div className='project-content'>
           <div className='project-info'>

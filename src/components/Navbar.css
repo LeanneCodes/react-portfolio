@@ -45,6 +45,11 @@ a .resume {
     color: var(--cream) !important;
 }
 
+.nav .resume {
+    text-decoration: none !important;
+    color: var(--cream) !important;
+}
+
 .nav-item a:hover {
     color: var(--coral);
 }
