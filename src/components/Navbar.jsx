@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { RxOpenInNewWindow } from "react-icons/rx";
 import './Navbar.css';
 import Icon from './elements/Icon';
 import { SiGithub } from "react-icons/si";
@@ -94,7 +95,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className='nav-link' href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
+                <a className='nav-link' href={Resume} target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a>
               </li>
               <hr />
               <div className='ext-link'>
@@ -166,7 +167,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <a className='nav-link resume' href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
+          <a className='nav-link resume' href={Resume} target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a>
         </li>
         <hr />
         <div className='ext-link'>
