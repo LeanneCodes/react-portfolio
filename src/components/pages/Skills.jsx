@@ -22,7 +22,7 @@ const Skills = () => {
     <div className='skills-container container-fluid' id='skills'>
       <div className='skills-header'>
         <h1>My Skills</h1>
-        <p className="w-md-50 mx-auto" style={{ marginTop: '1rem', textAlign: 'center' }}>Current techstack that I engage with most frequently, either through my current role or via personal projects.</p>
+        <p className="mx-auto" style={{ marginTop: '1rem', textAlign: 'center' }}>Current techstack that I engage with most frequently, either through my current role or via personal projects.</p>
       </div>
       <div className='skills-flex'>
         <div className='skills-Techstack grid-container'>

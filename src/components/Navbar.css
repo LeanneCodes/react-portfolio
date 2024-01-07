@@ -72,9 +72,14 @@ a .resume {
 
     .ext-link {
         justify-content: flex-start;
+        padding-left: 1rem;
     }
 
     .ext-link a {
         padding-right: 20px;
+    }
+
+    .nav-item {
+        padding: 0.5rem 1rem;
     }
 }
