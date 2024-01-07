@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "react-portfolio/oyster-and-beyond-project-cover.png",
+        "image": "/oyster-and-beyond-project-cover.png",
         "name": "Oyster and Beyond Blog",
         "tech": "HTML, NextJs, Tailwind, JavaScript, Hygraph CMS",
         "summary": "A travel blog that showcases a variety of destinations and an option for users to leave comments.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "react-portfolio/vaultkey-project-cover.png",
+        "image": "/vaultkey-project-cover.png",
         "name": "VaultKey Password Generator",
         "tech": "HTML, CSS, JavaScript",
         "summary": "A password generator that intakes user input and forms a password between 8 and 128 characters.",
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "image": "react-portfolio/tasteful-twist-project-cover.png",
+        "image": "/tasteful-twist-project-cover.png",
         "name": "Tasteful Twist Recipe Saver",
         "tech": "HTML, CSS, JavaScript, Bootstrap, EmailJS",
         "summary": "A website that allows users to save and unsave recipes from eight cuisines around the world.",
@@ -28,7 +28,7 @@
     },
     {
         "id": 4,
-        "image": "react-portfolio/weather-dashboard-project-cover.png",
+        "image": "/weather-dashboard-project-cover.png",
         "name": "Weather Dashboard",
         "tech": "HTML, CSS, JavaScript, Bootstrap, API",
         "summary": "Displays the current weather based on the user's input, using the OpenWeather API.",
@@ -37,7 +37,7 @@
     },
     {
         "id": 5,
-        "image": "react-portfolio/work-day-project-cover.png",
+        "image": "/work-day-project-cover.png",
         "name": "Work Day Planner",
         "tech": "HTML, CSS, JavaScript, Bootstrap",
         "summary": "A work planner that updates when you can book meetings using the jQuery library.",
@@ -46,7 +46,7 @@
     },
     {
         "id": 6,
-        "image": "react-portfolio/coding-quiz-project-cover.png",
+        "image": "/coding-quiz-project-cover.png",
         "name": "Coding Quiz",
         "tech": "HTML, CSS, JavaScript, Bootstrap",
         "summary": "Using JavaScript to create an interactive quiz and saves the user's score to their local storage",

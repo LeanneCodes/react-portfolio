@@ -93,7 +93,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className='nav-link' href='react-portfolio/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
+                <a className='nav-link' href='/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
               </li>
               <hr />
               <div className='ext-link'>
@@ -165,7 +165,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <a className='nav-link resume' href='react-portfolio/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
+          <a className='nav-link resume' href='/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
         </li>
         <hr />
         <div className='ext-link'>
