@@ -1,7 +1,8 @@
-.icon {
+.icon svg {
     font-size: 2rem;
     cursor: pointer;
     text-align: center;
     text-decoration: none !important;
     color: var(--coral) !important;
+    margin-top: 0.5rem;
 }

@@ -1,5 +1,6 @@
-.icon {
-    font-size: xxx-large;
+.tech-icon {
+    font-size: xx-large;
+    color: var(--coral);
 }
 
 .tech-container p {

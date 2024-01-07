@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 import { FaPhone } from "react-icons/fa";
 import { MdAlternateEmail } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
@@ -6,10 +7,44 @@ import { FaLinkedin } from "react-icons/fa";
 import '../styles/Contact.css';
 
 const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    emailjs.sendForm('service_pz95cma', 'template_r7p3xvj', form.current, 'CUQwPTgVs6AiS1Vrr')
+      .then((result) => {
+        let status = document.getElementById('message-status');
+        if (result.text === 'OK') {
+          console.log(result.text);
+          console.log("Message sent");
+          let message = 'Message successfully sent!';
+          status.style.color = 'lightgreen';
+          status.innerHTML = message;
+          setTimeout(() => {
+            status.innerHTML = '';
+          }, 3000);
+        }
+        e.target.reset();
+      }, (error) => {
+        console.log(error.text);
+        let status = document.getElementById('message-status');
+        console.log(result.text);
+        console.log("Message failed");
+        let message = 'Message failed. Please try again.';
+        status.style.color = 'lightred';
+        status.innerHTML = message;
+        setTimeout(() => {
+          status.innerHTML = '';
+        }, 3000);
+      });
+  };
+  
+
   return (
     // contact info
     <div className='contact-container container-fluid'>
-      <div>
+      <div className='w-75 mx-auto'>
         <h1>Contact Me</h1>
         <div className='d-flex flex-row justify-content-around'>
           <div className='contact-info'>
@@ -36,29 +71,32 @@ const Contact = () => {
       </div>
 
       {/* contact form */}
-      <div>
+      <div className='w-75 mx-auto'>
         <div>
-          <h2>Have a question?</h2>
-          <h4>Send me a message</h4>
+          <h2 className='message'>Have a question?</h2>
+          <h4 className='message'>Send me a message</h4>
         </div>
-        <div class="row mt-5">
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Name" aria-label="Name" />
+        <form ref={form} onSubmit={sendEmail}>
+          <div className="row mt-5">
+            <div className="col">
+              <input type="text" name="user_name" className="form-control" placeholder="Name" aria-label="Name" required />
+            </div>
+            <div className="col">
+              <input type="email" name="user_email" className="form-control" id="inputEmail4" placeholder='Email Address' required />
+            </div>
           </div>
-          <div class="col">
-            <input type="email" class="form-control" id="inputEmail4" placeholder='Email Address' />
+          <div className='row mt-3'>
+            <div>
+              <textarea name="message" className="form-control" id="exampleFormControlTextarea1" placeholder='Message' rows="5" required></textarea>
+            </div>
           </div>
-        </div>
-        <div className='row mt-3'>
-          <div>
-            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder='Message' rows="5"></textarea>
+          <div className="row mt-3">
+            <div className="col">
+              <input type="submit" value="Submit" className="submit-btn"/>
+              <p id='message-status' className='mt-2'></p>
+            </div>
           </div>
-        </div>
-        <div className="row mt-3">
-          <div class="col">
-            <button type="submit" className="submit-btn">Submit</button>
-          </div>
-        </div>
+        </form>
       </div>
     </div>
   )
