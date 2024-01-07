@@ -131,7 +131,7 @@ const Navbar = () => {
         </li>
         <li className="nav-item">
           <NavLink
-            to="/react-portfolio/about"
+            to="/about"
             className={({ isActive }) =>
               isActive ? 'nav-link active' : 'nav-link'
             }
