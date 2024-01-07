@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "src/assets/oyster-and-beyond-project-cover.png",
+        "image": "public/oyster-and-beyond-project-cover.png",
         "name": "Oyster and Beyond Blog",
         "tech": "HTML, NextJs, Tailwind, JavaScript, Hygraph CMS",
         "summary": "A travel blog that showcases a variety of destinations and an option for users to leave comments.",
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "src/assets/vaultkey-project-cover.png",
+        "image": "public/vaultkey-project-cover.png",
         "name": "VaultKey Password Generator",
         "tech": "HTML, CSS, JavaScript",
         "summary": "A password generator that intakes user input and forms a password between 8 and 128 characters.",
@@ -19,11 +19,38 @@
     },
     {
         "id": 3,
-        "image": "src/assets/vaultkey-project-cover.png",
-        "name": "VaultKey Password Generator",
-        "tech": "HTML, CSS, JavaScript",
-        "summary": "A password generator that intakes user input and forms a password between 8 and 128 characters.",
-        "live": "https://leannecodes.github.io/vault-key-generator/",
-        "github": "https://github.com/LeanneCodes/vault-key-generator"
+        "image": "public/tasteful-twist-project-cover.png",
+        "name": "Tasteful Twist Recipe Saver",
+        "tech": "HTML, CSS, JavaScript, Bootstrap, EmailJS",
+        "summary": "A website that allows users to save and unsave recipes from eight cuisines around the world.",
+        "live": "https://main--heartfelt-gelato-000b69.netlify.app/",
+        "github": "https://github.com/LeanneCodes/tasteful-twist"
+    },
+    {
+        "id": 4,
+        "image": "public/weather-dashboard-project-cover.png",
+        "name": "Weather Dashboard",
+        "tech": "HTML, CSS, JavaScript, Bootstrap, API",
+        "summary": "Displays the current weather based on the user's input, using the OpenWeather API.",
+        "live": "https://leannecodes.github.io/weather-dashboard/",
+        "github": "https://github.com/LeanneCodes/weather-dashboard"
+    },
+    {
+        "id": 5,
+        "image": "public/work-day-project-cover.png",
+        "name": "Workday Planner",
+        "tech": "HTML, CSS, JavaScript, Bootstrap",
+        "summary": "A work planner that updates when you can book meetings using the jQuery library.",
+        "live": "https://leannecodes.github.io/work-planner/",
+        "github": "https://github.com/LeanneCodes/work-planner"
+    },
+    {
+        "id": 6,
+        "image": "public/coding-quiz-project-cover.png",
+        "name": "Coding Quiz",
+        "tech": "HTML, CSS, JavaScript, Bootstrap",
+        "summary": "Using JavaScript to create an interactive quiz and saves the user's score to their local storage",
+        "live": "https://leannecodes.github.io/coding-quiz/index.html",
+        "github": "https://github.com/LeanneCodes/coding-quiz"
     }
 ]
