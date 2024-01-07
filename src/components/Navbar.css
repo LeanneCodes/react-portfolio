@@ -40,6 +40,11 @@
     color: var(--cream);
 }
 
+a .resume {
+    text-decoration: none !important;
+    color: var(--cream) !important;
+}
+
 .nav-item a:hover {
     color: var(--coral);
 }

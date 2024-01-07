@@ -93,14 +93,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  to="/react-portfolio/resume"
-                  className={({ isActive }) =>
-                    isActive ? 'nav-link active' : 'nav-link'
-                  }
-                >
-                  Resume
-                </NavLink>
+              <a className='nav-link' href='public/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
               </li>
               <hr />
               <div className='ext-link'>
@@ -172,14 +165,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <NavLink
-            to="/react-portfolio/resume"
-            className={({ isActive }) =>
-              isActive ? 'nav-link active' : 'nav-link'
-            }
-          >
-            Resume
-          </NavLink>
+          <a className='nav-link resume' href='public/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
         </li>
         <hr />
         <div className='ext-link'>

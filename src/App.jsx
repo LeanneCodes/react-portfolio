@@ -21,7 +21,6 @@ function App() {
         <Route path="/react-portfolio/skills" element={<Skills />} />
         <Route path="/react-portfolio/projects" element={<Projects />} />
         <Route path="/react-portfolio/contact/*" element={<Contact />} />
-        <Route path="/react-portfolio/resume" element={<Resume />} />
       </Routes>
     </Router>
   )

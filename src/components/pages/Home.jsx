@@ -10,7 +10,7 @@ const Home = () => {
       Certified Fullstack Engineer with a Merit Diploma, passionate about Frontend development.
       </p>
       <div className='intro-links'>
-        <button type='button'><a href='#' target='_blank'>Resume {<RxOpenInNewWindow />}</a></button>
+        <button type='button'><a href='public/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a></button>
       </div>
     </div>
   )
