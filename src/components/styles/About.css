@@ -74,6 +74,13 @@
     }
 }
 
+@media screen and (max-width: 1440px) {
+    .profile-pic {
+        width: 250px;
+        margin: 3rem;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .img-style {
         width: 45%;

@@ -59,6 +59,12 @@
     align-content: center;
 }
 
+@media screen and (max-width: 1440px) {
+    .skills-flex {
+        padding: 50px 50px 0;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .skills-header h1 {
         padding: 2rem 0;
