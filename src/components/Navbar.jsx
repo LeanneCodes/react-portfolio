@@ -4,6 +4,7 @@ import './Navbar.css';
 import Icon from './elements/Icon';
 import { SiGithub } from "react-icons/si";
 import { SiLinkedin } from "react-icons/si";
+import Resume from '../../public/Leanne-Goldsmith-Resume.pdf';
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
@@ -93,7 +94,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className='nav-link' href='/react-portfolio/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume</a>
+                <a className='nav-link' href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
               </li>
               <hr />
               <div className='ext-link'>
@@ -165,7 +166,7 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <a className='nav-link resume' href="/react-portfolio/Leanne-Goldsmith-Resume.pdf" target='_blank' rel="noopener noreferrer">Resume</a>
+          <a className='nav-link resume' href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
         </li>
         <hr />
         <div className='ext-link'>
