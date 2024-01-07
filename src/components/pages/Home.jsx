@@ -1,6 +1,7 @@
 import React from 'react'
 import { RxOpenInNewWindow } from "react-icons/rx";
 import '../styles/Home.css'
+import Resume from '../../../public/Leanne-Goldsmith-Resume.pdf'
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       Certified Fullstack Engineer with a Merit Diploma, passionate about Frontend development.
       </p>
       <div className='intro-links'>
-        <button type='button'><a href='public/Leanne-Goldsmith-Resume.pdf' target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a></button>
+        <button type='button'><a href={Resume} target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a></button>
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Projects.css';
 import Card from '../elements/Card';
-import projectsData from '../../projects.json';
+import projectData from '../../projects';
 
 const Projects = () => {
   return (
@@ -9,7 +9,7 @@ const Projects = () => {
       <h1>My Projects</h1>
       <div className='projects'>
         <div className='projects-card'>
-          {projectsData.map((project) => (
+          {projectData.map((project) => (
             <Card
               id={project.id}
               alt={project.name}
