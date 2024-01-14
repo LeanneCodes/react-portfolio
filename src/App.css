@@ -5,10 +5,6 @@
   scroll-behavior: smooth;
 }
 
-html {
-  scroll-padding-top: 99px;
-}
-
 body {
   background-color: var(--bg);
   color: var(--text-color);
@@ -36,14 +32,4 @@ h3 {
 
 p {
   font-family: var(--body-text);
-}
-
-a {
-  text-decoration: none;
-  color: var(--purple);
-  font-weight: 600;
-}
-
-.container {
-  padding: 4rem;
 }
