@@ -11,7 +11,7 @@
     {
         "id": 2,
         "image": "https://res.cloudinary.com/dxa3wjudh/image/upload/v1704656448/vaultkey-project-cover_bszfnu.png",
-        "name": "VaultKey Password Generator",
+        "name": "Password Generator",
         "tech": "HTML, CSS, JavaScript",
         "summary": "A password generator that intakes user input and forms a password between 8 and 128 characters.",
         "live": "https://leannecodes.github.io/vault-key-generator/",
@@ -34,23 +34,5 @@
         "summary": "Displays the current weather based on the user's input, using the OpenWeather API.",
         "live": "https://leannecodes.github.io/weather-dashboard/",
         "github": "https://github.com/LeanneCodes/weather-dashboard"
-    },
-    {
-        "id": 5,
-        "image": "https://res.cloudinary.com/dxa3wjudh/image/upload/v1704656447/work-day-project-cover_jplnib.png",
-        "name": "Work Day Planner",
-        "tech": "HTML, CSS, JavaScript, Bootstrap",
-        "summary": "A work planner that updates when you can book meetings using the jQuery library.",
-        "live": "https://leannecodes.github.io/work-planner/",
-        "github": "https://github.com/LeanneCodes/work-planner"
-    },
-    {
-        "id": 6,
-        "image": "https://res.cloudinary.com/dxa3wjudh/image/upload/v1704656448/coding-quiz-project-cover_ccyjlo.png",
-        "name": "Coding Quiz",
-        "tech": "HTML, CSS, JavaScript, Bootstrap",
-        "summary": "Using JavaScript to create an interactive quiz and saves the user's score to their local storage",
-        "live": "https://leannecodes.github.io/coding-quiz/index.html",
-        "github": "https://github.com/LeanneCodes/coding-quiz"
     }
 ]
