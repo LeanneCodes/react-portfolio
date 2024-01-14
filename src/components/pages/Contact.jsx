@@ -44,34 +44,9 @@ const Contact = () => {
   return (
     // contact info
     <div className='contact-container container-fluid'>
-      <div className='w-75 mx-auto'>
-        <h1 className='mt-4 contact-title'>Contact Me</h1>
-        <div className='contact-grid'>
-          <div className='contact-info'>
-            <div className='contact-icon'>{<FaPhone />}</div>
-            <p>Contact No.</p>
-            <p>+44 (0)74 963 55 196</p>
-          </div>
-          <div className='contact-info'>
-            <div className='contact-icon'>{<MdAlternateEmail />}</div>
-            <p>Email</p>
-            <p>leannemgoldsmith@gmail.com</p>
-          </div>
-          <div className='contact-info'>
-            <div className='contact-icon'>{<FaGithub />}</div>
-            <p>GitHub</p>
-            <p><a href="https://github.com/LeanneCodes" target='_blank'>LeanneCodes</a></p>
-          </div>
-          <div className='contact-info'>
-            <div className='contact-icon'>{<FaLinkedin />}</div>
-            <p>LinkedIn</p>
-            <p><a href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank'>Leanne Goldsmith</a></p>
-          </div>
-        </div>
-      </div>
-
       {/* contact form */}
       <div className='w-75 mx-auto message-container'>
+      <h1 className='mt-4 contact-title'>Contact Me</h1>
         <div className='email-header'>
           <h2 className='message'>Have a question?</h2>
           <h4 className='message'>Send me a message</h4>

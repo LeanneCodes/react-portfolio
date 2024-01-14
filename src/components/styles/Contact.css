@@ -5,33 +5,6 @@
     justify-content: space-evenly;
 }
 
-.contact-grid {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-}
-
-.contact-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.contact-info p:first-of-type {
-    color: var(--coral);
-    font-weight: 500;
-    font-family: var(--title);
-}
-
-.contact-info p a {
-    color: var(--cream);
-}
-
-.contact-icon {
-    font-size: 4rem;
-    margin-bottom: 1.5rem;
-}
-
 .message {
     color: var(--cream) !important;
 }
@@ -62,23 +35,9 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .contact-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 2rem;
-    }
-
-    .contact-icon {
-        font-size: 2rem;
-    }
-
     .contact-title {
         font-size: 3.5rem !important;
         padding: 1rem 0 !important;
-    }
-
-    .contact-container {
-        padding: 2rem;
     }
 
     .message-container {
@@ -86,21 +45,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
-    .contact-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin-bottom: 2rem;
-    }
-}
-
 @media screen and (max-width: 425px) {
-    .contact-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin-bottom: 2rem;
-    }
-
     .message-container {
         margin-top: 1rem;
     }
@@ -111,12 +56,6 @@
 }
 
 @media screen and (max-width: 320px) {
-    .contact-grid {
-        display: grid;
-        grid-template-columns: 225px;
-        margin-bottom: 2rem;
-    }
-
     .email-header h2 {
         font-size: 22px !important;
     }
