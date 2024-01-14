@@ -95,13 +95,15 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <a className='nav-link' href={Resume} target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a>
+                <a className='nav-link' href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
+              </li>
+              <li className="nav-item">
+                <a className='nav-link' href="https://github.com/LeanneCodes" target='_blank' rel="noopener noreferrer">GitHub</a>
+              </li>
+              <li className="nav-item">
+                <a className='nav-link' href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank' rel="noopener noreferrer">LinkedIn</a>
               </li>
               <hr />
-              <div className='ext-link'>
-                <a href="https://github.com/LeanneCodes" target='_blank'><Icon icon={ <SiGithub/>}/></a>
-                <a href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank'><Icon icon={ <SiLinkedin/>}/></a>
-              </div>
             </ul>
           </div>
         </div>
@@ -167,13 +169,15 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="nav-item">
-          <a className='nav-link resume' href={Resume} target='_blank' rel="noopener noreferrer">Resume {<RxOpenInNewWindow />}</a>
+          <a className='nav-link ext-link' href={Resume} target='_blank' rel="noopener noreferrer">Resume</a>
+        </li>
+        <li className="nav-item">
+          <a className='nav-link ext-link' href="https://github.com/LeanneCodes" target='_blank' rel="noopener noreferrer">GitHub</a>
+        </li>
+        <li className="nav-item">
+          <a className='nav-link ext-link' href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank' rel="noopener noreferrer">LinkedIn</a>
         </li>
         <hr />
-        <div className='ext-link'>
-          <a href="https://github.com/LeanneCodes" target='_blank'><Icon icon={ <SiGithub/>}/></a>
-          <a href="https://www.linkedin.com/in/leanne-m-goldsmith/" target='_blank'><Icon icon={ <SiLinkedin/>}/></a>
-        </div>
       </ul>
 
     </div>

@@ -1,5 +1,5 @@
 .desktop {
-    width: 20%;
+    width: 30%;
     padding: 3% 0 3% 10% !important;
     height: 100vh;
     display: flex;
@@ -13,7 +13,7 @@
 
 .nav {
     text-align: left;
-    width: 100% !important;
+    width: 78% !important;
 }
 
 .title {
@@ -28,7 +28,7 @@
 .nav-item {
     font-family: var(--body-text);
     font-weight: 500;
-    padding: 0.5rem 0;
+    margin-left: 1rem;
     transition: padding 1s;
 }
 
@@ -40,7 +40,7 @@
     color: var(--cream);
 }
 
-a .resume {
+.nav-item .ext-link {
     text-decoration: none !important;
     color: var(--cream) !important;
 }
@@ -59,24 +59,9 @@ a .resume {
     font-family: var(--title);
 }
 
-.ext-link {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-}
-
 @media (max-width: 768px) {
     #root {
         flex-direction: column;
-    }
-
-    .ext-link {
-        justify-content: flex-start;
-        padding-left: 1rem;
-    }
-
-    .ext-link a {
-        padding-right: 20px;
     }
 
     .nav-item {
