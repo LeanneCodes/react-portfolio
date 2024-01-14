@@ -1,9 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import { FaPhone } from "react-icons/fa";
-import { MdAlternateEmail } from "react-icons/md";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
 import '../styles/Contact.css';
 
 const Contact = () => {
